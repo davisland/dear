@@ -11,6 +11,12 @@
     max-width: 35%;
 }
 
+@include media-query($on-palm) {
+    .site-header img {
+        max-width: 50%;
+    }
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
