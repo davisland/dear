@@ -1,0 +1,12 @@
+# Site settings
+title: Dear
+email: dland95@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Dear is a podcast. Each week Brie Ripley and Davis Land send audio letters to each other.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: dear_podcast
+
+# Build settings
+markdown: kramdown
+permalink: pretty

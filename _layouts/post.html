@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <center><h1 class="post-title">{{ page.title }}</h1></center>
+  </header>
+
+  <article class="post-content">
+    <center>{{ post.author }}</center>
+    <center>{{ content }}</center>
+  </article>
+
+  <div class="post-nav">
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if page.previous.url and page.next.url %}
+      |
+    {% endif %}
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}">Next &raquo;</a>
+    {% endif %}
+  </div>
+
+</div>
